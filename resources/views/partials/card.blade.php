@@ -1,5 +1,5 @@
 <div class="card">
-    <div class="card-body">
+    <div class="">
         <img class="img-fluid" src="{{ Vite::asset('resources/img/' . $product['frontImage']) }}" alt="front-image">
     </div>   
 </div>
