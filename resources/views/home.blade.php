@@ -1,5 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Home page</h1>
+    <div class="container">
+        <div class="row">
+            @foreach ($products as $product)
+                <div class="col-4">
+                    @include('partials.card')
+                </div>
+            @endforeach
+        </div>
+    </div>
 @endsection

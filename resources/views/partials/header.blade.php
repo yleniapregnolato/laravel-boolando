@@ -2,8 +2,8 @@
     <div class="row justify-content-between">
         <div class="col-2 mt-3 ms-5">
             <ul class="d-flex justify-content-between">
-                <li><a href="">Donna</a></li>
-                <li><a href="">Uomo</a></li>
+                <li class="me-3"><a href="">Donna</a></li>
+                <li class="me-3"><a href="">Uomo</a></li>
                 <li><a href="">Bambino</a></li>
             </ul>
         </div>
