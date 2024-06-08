@@ -1,6 +1,9 @@
 <div class="card rounded-0 border-0 ms_product">
+    <div class="ms_heart">
+        <p class="{{ $product["isInFavorites"] === true ? "text-danger" : "text-black"}}">&hearts;</p>
+    </div>
     <div>
-         @foreach ($product['badges'] as $badge)
+         @foreach ($product['badges'] as $badge)     
             <span class="{{ stripos($badge['value'], 'Sostenibilità') !== false ? 'ms_green' : 'ms_red' }}">{{ $badge['value'] }}</span>
         @endforeach
     </div>
