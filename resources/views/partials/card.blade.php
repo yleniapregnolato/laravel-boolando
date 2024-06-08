@@ -4,7 +4,9 @@
     </div>
     <div>
          @foreach ($product['badges'] as $badge)     
-            <span class="{{ stripos($badge['value'], 'Sostenibilità') !== false ? 'ms_green' : 'ms_red' }}">{{ $badge['value'] }}</span>
+            <span class="{{ stripos($badge['value'], 'Sostenibilità') !== false ? 'ms_green' : 'ms_red'}}">
+                {{ $badge['value'] }}
+            </span>
         @endforeach
     </div>
     <div>
